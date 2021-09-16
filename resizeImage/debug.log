@@ -1,0 +1,91 @@
+[18/Aug/2021 01:33:29,165] Watching for file changes with StatReloader
+[18/Aug/2021 01:33:37] [m"GET /api/resize_picture/ HTTP/1.1" 200 21564[0m
+[18/Aug/2021 01:33:55,760] The image k_34x65.jpg has added.
+[18/Aug/2021 01:33:55] [m"POST /api/resize_picture/ HTTP/1.1" 201 14268[0m
+[18/Aug/2021 01:38:12,722] [33mNot Found: /api/[0m
+[18/Aug/2021 01:38:12] [33m"GET /api/ HTTP/1.1" 404 2400[0m
+[18/Aug/2021 01:38:14] [m"GET /admin/ HTTP/1.1" 200 7207[0m
+[18/Aug/2021 01:38:15] [m"GET /admin/ HTTP/1.1" 200 7207[0m
+[18/Aug/2021 01:38:15] [m"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392[0m
+[18/Aug/2021 01:38:17] [m"GET /admin/resize/image/ HTTP/1.1" 200 12302[0m
+[18/Aug/2021 01:38:17] [m"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347[0m
+[18/Aug/2021 01:38:17] [m"GET /static/admin/js/core.js HTTP/1.1" 200 5698[0m
+[18/Aug/2021 01:38:17] [m"GET /admin/jsi18n/ HTTP/1.1" 200 3195[0m
+[18/Aug/2021 01:38:17] [m"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531[0m
+[18/Aug/2021 01:38:17] [m"GET /static/admin/js/urlify.js HTTP/1.1" 200 7902[0m
+[18/Aug/2021 01:38:17] [m"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984[0m
+[18/Aug/2021 01:38:17] [m"GET /static/admin/js/actions.js HTTP/1.1" 200 7664[0m
+[18/Aug/2021 01:38:17] [m"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630[0m
+[18/Aug/2021 01:38:17] [m"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381[0m
+[18/Aug/2021 01:38:21] [m"GET /admin/resize/image/69/change/ HTTP/1.1" 200 7520[0m
+[18/Aug/2021 01:38:21] [m"GET /admin/jsi18n/ HTTP/1.1" 200 3195[0m
+[18/Aug/2021 01:38:21] [m"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492[0m
+[18/Aug/2021 01:38:21] [m"GET /static/admin/css/forms.css HTTP/1.1" 200 8804[0m
+[18/Aug/2021 01:38:21] [m"GET /static/admin/css/widgets.css HTTP/1.1" 200 11097[0m
+[18/Aug/2021 01:38:21] [m"GET /static/admin/js/change_form.js HTTP/1.1" 200 606[0m
+[18/Aug/2021 01:38:26] [m"GET /admin/resize/image/ HTTP/1.1" 200 12302[0m
+[18/Aug/2021 01:38:28] [m"GET /admin/resize/image/95/change/ HTTP/1.1" 200 7602[0m
+[18/Aug/2021 01:38:28] [m"GET /admin/jsi18n/ HTTP/1.1" 200 3195[0m
+[18/Aug/2021 01:39:36,414] D:\Dj\rs2\resizeImage\resizeImage\resize\serializers.py changed, reloading.
+[18/Aug/2021 01:39:37,372] Watching for file changes with StatReloader
+[18/Aug/2021 01:39:50,950] D:\Dj\rs2\resizeImage\resizeImage\resize\serializers.py changed, reloading.
+[18/Aug/2021 01:39:51,888] Watching for file changes with StatReloader
+[18/Aug/2021 01:40:07] [m"GET /api/resize_picture/ HTTP/1.1" 200 21892[0m
+[18/Aug/2021 01:40:28,608] The image k_34x35.jpg has added.
+[18/Aug/2021 01:40:28] [m"POST /api/resize_picture/ HTTP/1.1" 201 14268[0m
+[18/Aug/2021 01:40:54,401] D:\Dj\rs2\resizeImage\resizeImage\resize\serializers.py changed, reloading.
+[18/Aug/2021 01:40:55,348] Watching for file changes with StatReloader
+[18/Aug/2021 01:41:00,227] D:\Dj\rs2\resizeImage\resizeImage\resize\serializers.py changed, reloading.
+[18/Aug/2021 01:41:01,149] Watching for file changes with StatReloader
+[18/Aug/2021 01:41:10,532] [35;1mInternal Server Error: /api/resize_picture/[0m
+Traceback (most recent call last):
+  File "D:\Dj\backend\backend\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Dj\backend\backend\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Dj\backend\backend\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Dj\backend\backend\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Dj\backend\backend\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Dj\backend\backend\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Dj\backend\backend\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Dj\backend\backend\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Dj\backend\backend\lib\site-packages\rest_framework\generics.py", line 242, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\Dj\backend\backend\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\Dj\backend\backend\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\Dj\backend\backend\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "D:\Dj\rs2\resizeImage\resizeImage\resize\serializers.py", line 28, in validate
+    print(self.image)
+AttributeError: 'ImageSerializer' object has no attribute 'image'
+[18/Aug/2021 01:41:10] [35;1m"POST /api/resize_picture/ HTTP/1.1" 500 117598[0m
+[18/Aug/2021 01:51:58,554] D:\Dj\rs2\resizeImage\resizeImage\resize\serializers.py changed, reloading.
+[18/Aug/2021 01:51:59,493] Watching for file changes with StatReloader
+[18/Aug/2021 01:52:24,811] D:\Dj\rs2\resizeImage\resizeImage\resize\serializers.py changed, reloading.
+[18/Aug/2021 01:52:25,729] Watching for file changes with StatReloader
+[18/Aug/2021 01:52:43,498] D:\Dj\rs2\resizeImage\resizeImage\resize\views.py changed, reloading.
+[18/Aug/2021 01:52:44,508] Watching for file changes with StatReloader
+[18/Aug/2021 01:52:46,144] D:\Dj\rs2\resizeImage\resizeImage\resize\views.py changed, reloading.
+[18/Aug/2021 01:52:47,156] Watching for file changes with StatReloader
+[18/Aug/2021 01:52:48,778] D:\Dj\rs2\resizeImage\resizeImage\resize\views.py changed, reloading.
+[18/Aug/2021 01:52:49,679] Watching for file changes with StatReloader
+[18/Aug/2021 01:52:52,388] D:\Dj\rs2\resizeImage\resizeImage\resize\views.py changed, reloading.
+[18/Aug/2021 01:52:53,314] Watching for file changes with StatReloader
+[18/Aug/2021 01:52:57,104] D:\Dj\rs2\resizeImage\resizeImage\resize\views.py changed, reloading.
+[18/Aug/2021 01:52:58,016] Watching for file changes with StatReloader
+[18/Aug/2021 01:53:00,715] D:\Dj\rs2\resizeImage\resizeImage\resize\views.py changed, reloading.
+[18/Aug/2021 01:53:01,663] Watching for file changes with StatReloader
+[18/Aug/2021 01:53:03,299] D:\Dj\rs2\resizeImage\resizeImage\resize\views.py changed, reloading.
+[18/Aug/2021 01:53:04,318] Watching for file changes with StatReloader
+[18/Aug/2021 01:53:05,919] D:\Dj\rs2\resizeImage\resizeImage\resize\views.py changed, reloading.
+[18/Aug/2021 01:53:06,826] Watching for file changes with StatReloader
+[18/Aug/2021 01:53:22,464] D:\Dj\rs2\resizeImage\resizeImage\resize\views.py changed, reloading.
+[18/Aug/2021 01:53:23,375] Watching for file changes with StatReloader
